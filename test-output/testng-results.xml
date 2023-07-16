@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-16T17:49:07 IST" name="Failed suite [Suite]" finished-at="2023-07-16T17:49:14 IST" duration-ms="7402">
+    <groups>
+      <group name="Master">
+        <method signature="TC_002_LoginTest.test_loginTest()[pri:0, instance:testCases.TC_002_LoginTest@22ff4249]" name="test_loginTest" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_LoginTest.test_loginTest()[pri:0, instance:testCases.TC_002_LoginTest@22ff4249]" name="test_loginTest" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2023-07-16T17:49:07 IST" name="Test(failed)" finished-at="2023-07-16T17:49:14 IST" duration-ms="7402">
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@22ff4249]" started-at="2023-07-16T17:49:07 IST" name="setup" finished-at="2023-07-16T17:49:13 IST" duration-ms="5659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_loginTest()[pri:0, instance:testCases.TC_002_LoginTest@22ff4249]" started-at="2023-07-16T17:49:13 IST" name="test_loginTest" finished-at="2023-07-16T17:49:14 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@22ff4249]" started-at="2023-07-16T17:49:14 IST" name="tearDown" finished-at="2023-07-16T17:49:14 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_LoginTest -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
